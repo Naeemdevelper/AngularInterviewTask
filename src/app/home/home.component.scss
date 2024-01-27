@@ -1,0 +1,183 @@
+.nav_section {
+  .nav_bar {
+    background-color: blue;
+    padding: 0px 10px;
+
+    ul {
+      display: flex;
+      padding-left: 0;
+      margin-bottom: 0px;
+      padding: 10px 0px;
+      flex-wrap: wrap;
+
+      li {
+        color: white;
+        list-style-type: none;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.teams_section {
+  .custom_header {
+    background-color: #0649cb;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .custom_card_border {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .body_bg_image {
+    background-image: url("/assets/bg-table.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .sub_cards_main {
+    padding: 10px;
+    .flex_SubCards {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .sub_card_width {
+        flex-basis: 25%;
+        padding: 10px;
+
+        .sub_card {
+          background-color: #ffffff00;
+          border-radius: 13px;
+          border-color: grey;
+          padding: 8px 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+          p {
+            margin-bottom: 0px;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .news_block {
+    box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px -3px 23px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 13px;
+    border-color: grey;
+    padding: 10px;
+
+    .body_card_custom {
+      .news_heading_lower {
+        color: #0649cb;
+        font-size: 13px;
+      }
+      .news_heading {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .video-card {
+        position: relative; /* Allow positioning of play button */
+      }
+
+      .card-img-overlay {
+        position: unset !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure video covers card */
+      }
+
+      .play-button_news {
+        position: absolute;
+        top: 16px;
+        left: 13px;
+        z-index: 1;
+        background-color: #0dce9f;
+        color: white;
+        border: none;
+        padding: 10px 17px;
+        border-radius: 50%;
+      }
+      .custom_source_card {
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .load_btn_main {
+    text-align: center;
+
+    .load_more {
+      background-color: #0649cb !important;
+      color: #ffffff;
+    }
+  }
+}
+
+.footer_main {
+  .form_heading{
+    color: #0649cb;
+    margin-bottom: 20px;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    .form_inputs_width {
+      flex-basis: 50%;
+      padding: 0px 10px;
+      position: relative;
+      .custom_input {
+        padding-left: 30px;
+        border-radius: 10px;
+        border-color: gray;
+        box-shadow: -3px 46px 67px -33px rgba(0, 0, 0, 0.54) !important;
+        -webkit-box-shadow: -3px 46px 67px -33px rgba(0, 0, 0, 0.54);
+        -moz-box-shadow: -3px 46px 67px -33px rgba(0, 0, 0, 0.54);
+      }
+      .icon_position {
+        position: absolute;
+        left: 20px;
+        top: 42px;
+      }
+
+      .login_btn {
+        width: 100%;
+        background-color: #0649cb;
+      }
+    }
+  }
+}
+.common_pages{
+
+    list-style: none;
+
+}
